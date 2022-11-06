@@ -120,7 +120,8 @@ h6 {
 #header {
   transition: all 0.5s;
   z-index: 997;
-  padding: 15px 0;
+  padding: 9px 0;
+  background: rgba(40, 58, 90, 0.9);
 }
 
 #header.header-scrolled,
@@ -395,8 +396,8 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 80vh;
-  background: #37517e;
+  /* height:  100vh; */
+  /* background: #37517e; */
 }
 
 #hero .container {
@@ -463,7 +464,7 @@ h6 {
 
 @media (max-width: 991px) {
   #hero {
-    height: 100vh;
+    /* height: 100vh; */
     text-align: center;
   }
 
@@ -994,6 +995,8 @@ section {
 
 .portfolio .portfolio-item .portfolio-img img {
   transition: all 0.6s;
+  width: 100%;
+  height: 200px;
 }
 
 .portfolio .portfolio-item .portfolio-info {
@@ -1025,7 +1028,7 @@ section {
 .portfolio .portfolio-item .portfolio-info .preview-link,
 .portfolio .portfolio-item .portfolio-info .details-link {
   position: absolute;
-  right: 40px;
+  right: 10px;
   font-size: 24px;
   top: calc(50% - 18px);
   color: #fff;
@@ -1320,6 +1323,10 @@ section {
   .pricing .box {
     max-width: 60%;
     margin: 0 auto 30px auto;
+  }
+
+  #header{
+    padding: 10px 0;
   }
 }
 

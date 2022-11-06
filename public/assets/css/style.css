@@ -120,7 +120,12 @@ h6 {
 #header {
   transition: all 0.5s;
   z-index: 997;
+<<<<<<< HEAD
   padding: 15px 0;
+=======
+  padding: 9px 0;
+  background: rgba(40, 58, 90, 0.9);
+>>>>>>> 335de864f6776610e91effc0939f7e2e4166a784
 }
 
 #header.header-scrolled,
@@ -395,8 +400,13 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
+<<<<<<< HEAD
   height: 80vh;
   background: #37517e;
+=======
+  /* height:  100vh; */
+  /* background: #37517e; */
+>>>>>>> 335de864f6776610e91effc0939f7e2e4166a784
 }
 
 #hero .container {
@@ -463,7 +473,11 @@ h6 {
 
 @media (max-width: 991px) {
   #hero {
+<<<<<<< HEAD
     height: 100vh;
+=======
+    /* height: 100vh; */
+>>>>>>> 335de864f6776610e91effc0939f7e2e4166a784
     text-align: center;
   }
 
@@ -994,6 +1008,11 @@ section {
 
 .portfolio .portfolio-item .portfolio-img img {
   transition: all 0.6s;
+<<<<<<< HEAD
+=======
+  width: 100%;
+  height: 200px;
+>>>>>>> 335de864f6776610e91effc0939f7e2e4166a784
 }
 
 .portfolio .portfolio-item .portfolio-info {
@@ -1025,7 +1044,11 @@ section {
 .portfolio .portfolio-item .portfolio-info .preview-link,
 .portfolio .portfolio-item .portfolio-info .details-link {
   position: absolute;
+<<<<<<< HEAD
   right: 40px;
+=======
+  right: 10px;
+>>>>>>> 335de864f6776610e91effc0939f7e2e4166a784
   font-size: 24px;
   top: calc(50% - 18px);
   color: #fff;
@@ -1321,6 +1344,13 @@ section {
     max-width: 60%;
     margin: 0 auto 30px auto;
   }
+<<<<<<< HEAD
+=======
+
+  #header{
+    padding: 10px 0;
+  }
+>>>>>>> 335de864f6776610e91effc0939f7e2e4166a784
 }
 
 @media (max-width: 767px) {
