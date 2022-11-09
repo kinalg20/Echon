@@ -121,12 +121,12 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 9px 0;
-  background: rgba(40, 58, 90, 0.9);
+  background: rgb(48, 48, 48, 0.9);
 }
 
 #header.header-scrolled,
 #header.header-inner-pages {
-  background: rgba(40, 58, 90, 0.9);
+  background: rgb(48, 48, 48, 0.9);
 }
 
 #header .logo {
@@ -193,7 +193,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #47b2e4;
+  color: rgb(158, 121, 84);
 }
 
 .navbar .getstarted,
@@ -560,7 +560,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #37517e;
+  color: rgb(48, 48, 48);
 }
 
 .section-title1 h3 {
@@ -570,7 +570,7 @@ section {
   margin-bottom: 20px;
   padding-top: 20px;
   position: relative;
-  color: #37517e;
+  color: rgb(48, 48, 48);
   /* text-decoration: underline; */
 }
 
@@ -591,7 +591,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #47b2e4;
+  background: rgb(158, 121, 84);
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -676,7 +676,7 @@ section {
   left: 0;
   top: 2px;
   font-size: 20px;
-  color: #47b2e4;
+  color: rgb(158, 121, 84);
   line-height: 1;
 }
 
@@ -694,15 +694,15 @@ section {
   border-radius: 4px;
   transition: 0.3s;
   line-height: 1;
-  color: #47b2e4;
+  color: rgb(158, 121, 84);
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   margin-top: 6px;
-  border: 2px solid #47b2e4;
+  border: 2px solid rgb(158, 121, 84);
 }
 
 .about .content .btn-learn-more:hover {
-  background: #47b2e4;
+  background: rgb(158, 121, 84);
   color: #fff;
   text-decoration: none;
 }
@@ -1046,7 +1046,7 @@ section {
   z-index: 3;
   right: 0;
   transition: all 0.3s;
-  background: rgba(55, 81, 126, 0.8);
+  background: rgb(48, 48, 48);
   padding: 6px 15px;
 }
 
@@ -1076,7 +1076,7 @@ section {
 
 .portfolio .portfolio-item .portfolio-info .preview-link:hover,
 .portfolio .portfolio-item .portfolio-info .details-link:hover {
-  color: #47b2e4;
+  color: rgb(158, 121, 84);
 }
 
 .portfolio .portfolio-item .portfolio-info .details-link {
@@ -1482,8 +1482,8 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact .info {
-  border-top: 3px solid #47b2e4;
-  border-bottom: 3px solid #47b2e4;
+  border-top: 3px solid rgb(158, 121, 84);
+  border-bottom: 3px solid rgb(158, 121, 84);
   padding: 30px;
   background: #fff;
   width: 100%;
@@ -1492,7 +1492,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #47b2e4;
+  color: rgb(158, 121, 84);
   float: left;
   width: 44px;
   height: 44px;
@@ -1509,14 +1509,14 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #37517e;
+  color: rgb(48, 48, 48);
 }
 
 .contact .info p {
   padding: 0 0 10px 60px;
   margin-bottom: 20px;
   font-size: 14px;
-  color: #6182ba;
+  color: rgb(48, 48, 48);
 }
 
 .contact .info .email p {
@@ -1550,14 +1550,14 @@ section {
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #47b2e4;
+  background-color: rgb(158, 121, 84);
   color: #fff;
 }
 
 .contact .php-email-form {
   width: 100%;
-  border-top: 3px solid #47b2e4;
-  border-bottom: 3px solid #47b2e4;
+  border-top: 3px solid rgb(158, 121, 84);
+  border-bottom: 3px solid rgb(158, 121, 84);
   padding: 30px;
   background: #fff;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
@@ -1647,16 +1647,25 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #47b2e4;
-  border: 0;
-  padding: 12px 34px;
-  color: #fff;
-  transition: 0.4s;
-  border-radius: 50px;
+  background: transparent;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 4px;
+  transition: 0.3s;
+  line-height: 1;
+  color: rgb(158, 121, 84);
+  animation-delay: 0.8s;
+  margin-top: 6px;
+  border: 2px solid rgb(158, 121, 84);
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #209dd8;
+  background: rgb(158, 121, 84);
+  color: white;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1726,7 +1735,7 @@ section {
 --------------------------------------------------------------*/
 #footer {
   font-size: 14px;
-  background: #37517e;
+  background: rgb(48, 48, 48);
 }
 
 #footer .footer-newsletter {
