@@ -1471,7 +1471,7 @@
   // Owl Carousel
       var owl = $(".owl-carousel");
       owl.owlCarousel({
-        items : 4 , 
+        items : 4, 
         margin: 10,
         loop: true,
         nav: true,
@@ -1486,10 +1486,10 @@
           },
           // breakpoint from 768 up
           768 : {
-              items:2,
+              items:3,
           },
           1024 :{
-              items:3,
+              items:4,
           },
           1440 :{
             items : 4
@@ -1512,10 +1512,10 @@
             var Body = 'Name: ' + first_name  + '<br>Email: ' + email + '<br>subject:' + subject + '<br>Message:' + message;
             Email.send({
                 Host: "smtp.gmail.com",
-                Username: "accounts@thebooksbeyond.com",
-                Password: "lvdwhoeqqepjgerm",
-                To: 'developerjp2000@gmail.com',
-                From: email,
+                Username: "developerjp2000@gmail.com",
+                Password: "qigelghlobjqoara",
+                To: email,
+                From: 'developerjp2000@gmail.com',
                 Subject: "Query from customer",
                 Body: Body,
             }).then(message(alert('your mail has been sent successfully we will connect you as soon as possible ')));
