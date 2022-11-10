@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto";
   color: #444444;
 }
 
@@ -29,7 +29,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Jost", sans-serif;
+  font-family: "Roboto";
 }
 
 /*--------------------------------------------------------------
@@ -43,7 +43,7 @@ h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #37517e;
+  background: #000;
 }
 
 #preloader:before {
@@ -51,14 +51,14 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #37517e;
+  border: 6px solid #000;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
   width: 60px;
   height: 60px;
-  -webkit-animation: animate-preloader 1s linear infinite;
-  animation: animate-preloader 1s linear infinite;
+  /* -webkit-animation: animate-preloader 1s linear infinite;
+  animation: animate-preloader 1s linear infinite; */
 }
 
 @-webkit-keyframes animate-preloader {
@@ -180,6 +180,8 @@ h6 {
   color: #fff;
   white-space: nowrap;
   transition: 0.3s;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .navbar a i,
@@ -342,19 +344,19 @@ h6 {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #37517e;
+  color: #000;
 }
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #47b2e4;
+  color: rgb(158, 121, 84);
 }
 
 .navbar-mobile .getstarted,
 .navbar-mobile .getstarted:focus {
   margin: 15px;
-  color: #37517e;
+  color: #000;
 }
 
 .navbar-mobile .dropdown ul {
@@ -396,9 +398,9 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height:  80vh;
+  height:  540px;
   margin-top: 60px;
-  /* background: #37517e; */
+  /* background: #000; */
 }
 
 #hero .container {
@@ -420,7 +422,7 @@ h6 {
 }
 
 #hero .btn-get-started {
-  font-family: "Jost", sans-serif;
+  font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -464,10 +466,10 @@ h6 {
 }
 
 @media (max-width: 991px) {
-  #hero {
+  /* #hero {
     height: 55vh;
     text-align: center;
-  }
+  } */
 
   #hero .animated {
     -webkit-animation: none;
@@ -717,7 +719,7 @@ section {
 .why-us .content h3 {
   font-weight: 400;
   font-size: 34px;
-  color: #37517e;
+  color: #000;
 }
 
 .why-us .content h4 {
@@ -842,7 +844,7 @@ section {
 .skills .content h3 {
   font-weight: 700;
   font-size: 32px;
-  color: #37517e;
+  color: #000;
   font-family: "Poppins", sans-serif;
 }
 
@@ -879,7 +881,7 @@ section {
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #37517e;
+  color: #000;
 }
 
 .skills .progress .skill .val {
@@ -926,7 +928,7 @@ section {
 }
 
 .services .icon-box h4 a {
-  color: #37517e;
+  color: #000;
   transition: ease-in-out 0.3s;
 }
 
@@ -964,7 +966,7 @@ section {
 }
 
 .cta .cta-btn {
-  font-family: "Jost", sans-serif;
+  font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -1190,7 +1192,7 @@ section {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 20px;
-  color: #37517e;
+  color: #000;
 }
 
 .team .member span {
@@ -1236,7 +1238,7 @@ section {
 }
 
 .team .member .social a i {
-  color: #37517e;
+  color: #000;
   font-size: 16px;
   margin: 0 2px;
 }
@@ -1273,14 +1275,14 @@ section {
   font-weight: 500;
   margin-bottom: 15px;
   font-size: 20px;
-  color: #37517e;
+  color: #000;
 }
 
 .pricing h4 {
   font-size: 48px;
-  color: #37517e;
+  color: #000;
   font-weight: 400;
-  font-family: "Jost", sans-serif;
+  font-family: "Roboto";
   margin-bottom: 25px;
 }
 
@@ -1335,7 +1337,7 @@ section {
   transition: none;
   font-size: 16px;
   font-weight: 500;
-  font-family: "Jost", sans-serif;
+  font-family: "Roboto";
   transition: 0.3s;
   border: 1px solid #47b2e4;
 }
@@ -1456,7 +1458,7 @@ section {
 }
 
 .faq .faq-list a.collapsed {
-  color: #37517e;
+  color: #000;
   transition: 0.3s;
 }
 
@@ -1707,7 +1709,7 @@ section {
 .breadcrumbs h2 {
   font-size: 28px;
   font-weight: 600;
-  color: #37517e;
+  color: #000;
 }
 
 .breadcrumbs ol {
@@ -1752,7 +1754,7 @@ section {
   padding: 0;
   line-height: 1;
   font-weight: 600;
-  color: #37517e;
+  color: #000;
 }
 
 #footer .footer-newsletter form {
@@ -1807,21 +1809,21 @@ section {
   line-height: 1;
   text-transform: uppercase;
   font-weight: 600;
-  color: #37517e;
+  color: #000;
 }
 
 #footer .footer-top .footer-contact p {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Jost", sans-serif;
+  font-family: "Roboto";
   color: #5e5e5e;
 }
 
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #37517e;
+  color: #000;
   position: relative;
   padding-bottom: 12px;
 }
