@@ -5900,7 +5900,7 @@ textarea.form-control-lg {
 .carousel-control-prev,
 .carousel-control-next {
   position: absolute;
-  top: 0;
+  top: -55px;
   bottom: 0;
   z-index: 1;
   display: flex;
@@ -5931,7 +5931,7 @@ textarea.form-control-lg {
 }
 
 .carousel-control-prev {
-  left: 0;
+  left: -55px;
 }
 
 .carousel-control-next {
