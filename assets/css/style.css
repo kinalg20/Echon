@@ -540,9 +540,14 @@ section {
   overflow: hidden;
 }
 
+.header-height {
+  height: 90vh;
+  width: 100%;
+}
+
 .carousel-control-prev,
 .carousel-control-next {
-  top: -55px;
+  top: 0px;
 }
 
 .section-bg {
@@ -1480,6 +1485,7 @@ section {
   padding: 15px 30px;
   background: #fff;
   width: 100%;
+  min-height: 186px;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
 }
 
@@ -1920,6 +1926,14 @@ section {
   .links_banner h3 b{
     padding: 30px!important;
     font-size: 20px!important;
+  }
+  .header-height {
+    object-fit: cover;
+  }
+  .tagline {
+    line-height: 20px;
+    padding: 5px 0;
+    text-align: center!important;
   }
 }
 
