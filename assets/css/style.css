@@ -1972,7 +1972,7 @@ section {
 
 .links_banner h3 b {
   background-color: #fff;
-  /* padding: 25px 25px; */
+  padding: 30px 30px;
   opacity: 0.7;
   border-radius: 5px;
   font-size: 35px;
@@ -1980,7 +1980,7 @@ section {
 }
 
 .links_banner h3 img {
-  width: 400px;
+  width: 300px;
 }
 
 .tagline-mobile {
