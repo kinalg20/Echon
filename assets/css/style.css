@@ -125,7 +125,7 @@ h6 {
 #header {
   /* transition: all 0.5s; */
   z-index: 997;
-  padding: 9px 0;
+  /* padding: 10px 0; */
   background: rgb(48, 48, 48, 0.9);
 }
 
@@ -309,15 +309,15 @@ h6 {
   }
 
   .links_banner h3 img {
-    width: 200px!important;
+    width: 120px!important;
   }
 
   .tagline-mobile {
-    display: block!important;
+    display: none!important;
   }
 
   .tagline{
-    display: none;
+    /* display: none; */
   }
 
   .navbar ul {
@@ -1078,7 +1078,14 @@ section {
   background: rgb(48, 48, 48);
   padding: 6px 15px;
 }
-
+.owl-theme .owl-nav [class*=owl-] {
+  background: #869791!important;
+  color: #FFF!important;
+  text-decoration: none!important;
+}
+.owl-nav {
+  top: 85px!important;
+}
 .portfolio .portfolio-item .portfolio-info h4 {
   font-size: 18px;
   color: #fff;
@@ -1393,7 +1400,7 @@ section {
   }
 
   #header {
-    padding: 10px 0;
+    /* padding: 10px 0; */
   }
 }
 
@@ -1877,6 +1884,10 @@ section {
   line-height: 1;
 }
 
+.header_div {
+  padding: 15px 0 10px 0 ;
+}
+
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
   color: rgb(158, 121, 84);
@@ -1918,6 +1929,10 @@ section {
   font-size: 13px;
 }
 
+#carouselExampleControls {
+  margin-top: 71px;
+}
+
 /* #footer .credits a {
   transition: 0.3s;
 } */
@@ -1941,7 +1956,7 @@ section {
 
 
 @media(max-width : 426px) {
-  .links_banner h3 b {
+  .links_banner h3 div {
     padding: 30px !important;
     font-size: 20px !important;
   }
@@ -1954,6 +1969,19 @@ section {
     line-height: 20px;
     padding: 5px 0;
     text-align: center !important;
+  }
+
+
+  .header_div {
+    padding: 15px 15px 10px;
+  }
+
+  #header .logo img {
+    max-height: 30px;
+  }
+
+  #carouselExampleControls {
+    margin-top: 53px;
   }
 }
 
@@ -1970,7 +1998,7 @@ section {
   /* text-decoration: underline; */
 }
 
-.links_banner h3 b {
+.links_banner h3 div {
   background-color: #fff;
   padding: 30px 30px;
   opacity: 0.7;
@@ -1980,7 +2008,7 @@ section {
 }
 
 .links_banner h3 img {
-  width: 300px;
+  width: 120px;
 }
 
 .tagline-mobile {

@@ -1,749 +1,648 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1,
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1,
       shrink-to-fit=no">
-    <title>ECHON</title>
-    <meta content="" name="description">
-    <meta content="" name="keywords">
+  <title>ECHON</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-    <!-- Favicons -->
-    <link href="assets/img/echon logo.PNG" rel="icon">
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <!-- Favicons -->
+  <link href="assets/img/echon logo.PNG" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-    <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-      rel="stylesheet">
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
 
-    <!-- Vendor CSS Files -->
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
-      rel="stylesheet">
-    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-    <!-- Template Main CSS File -->
-    <link href="assets/css/style.css" rel="stylesheet">
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <link rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-    <link rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
-    <!-- Template Main CSS File -->
-    <link href="assets/css/style.css" rel="stylesheet">
-  </head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
 
-  <style>
-    .owl-nav{
-      position: absolute;
-      top: 65px;
-      display: flex;
-      justify-content: space-between;
-      width: 100%;
-      margin-top: 0!important;
-    }
-    .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot{
-      font-size: 40px!important;
-    }
-  </style>
-  <body>
+<style>
+  .owl-nav {
+    position: absolute;
+    top: 65px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 0 !important;
+  }
+
+  .owl-carousel .owl-nav button.owl-next,
+  .owl-carousel .owl-nav button.owl-prev,
+  .owl-carousel button.owl-dot {
+    font-size: 40px !important;
+  }
+</style>
+
+<body>
 
 
-    <!-- ======= Header ======= -->
-    
-    <header id="header" class="fixed-top ">
-      <div class="container d-flex align-items-center justify-content-between">
-        <h1 class="logo me-auto"><a href="index.html"><img
-              src="assets/img/logo/Echon_Logo_01.png"
-              alt=""></a></h1>
-        <a href="index.html" class="logo me-auto"><img src="assets/img/logo/logo.png"
-            alt="" class="img-fluid"></a>
-        <nav id="navbar" class="navbar d-block">
-          <ul style="justify-content: right;">
-            <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-            <li><a class="nav-link scrollto" href="#portfolio">Products</a></li>
-            <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-            <!-- <li><a class="nav-link scrollto" href="#contact">Contact</a></li> -->
-          </ul>
-          <i class="bi bi-list mobile-nav-toggle"></i>
-          <div class="tagline">
-              Exporters & Suppliers From India.
-          </div>
-        </nav>
-      </div>
-    </header>
-    
-    <!-- End Header -->
-    
-    
-    <div class="tagline-mobile">
-      <div class="container">
-        Exporters & Suppliers From India.
-      </div>
+  <!-- ======= Header ======= -->
+
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center justify-content-between header_div">
+      <h1 class="logo me-auto"><a href="index.html"><img src="assets/img/logo/Echon_Logo_01.png" alt=""></a></h1>
+      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo/logo.png"
+            alt="" class="img-fluid"></a> -->
+      <nav id="navbar" class="navbar d-block">
+        <ul style="justify-content: right;">
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#portfolio">Products</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <!-- <li><a class="nav-link scrollto" href="#contact">Contact</a></li> -->
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
     </div>
-    <section id="hero" class="d-flex align-items-center" style="padding-bottom: 0;">
-      <div  id="carouselExampleControls"  class="carousel slide"
-        style="margin-top: 54px;width: 100%;"
-        data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="d-block w-100 header-height"
-              src="assets/img/background/Fantasy Brown Marble.png" alt="First slide">
-              <a href="#first-slider"  class="section-title1 links_banner" ><h3><b><img src="assets/img/Realm_Logo.png" alt=""><br> <p style=" line-height: 25px; margin-top: 15px; color: rgb(158, 121, 84); font-size: 40px; font-family: 'Roboto';">Marble</p></b></h3></a>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100 header-height"
-              src="assets/img/background/Black Galaxy Granite vanity top (1).jpg"
-              alt="Second slide">
-              <a href="#second-slider" class="section-title1 links_banner" ><h3><b><img src="assets/img/Realm_Logo.png" alt=""><br><p style=" line-height: 25px; margin-top: 15px; color: rgb(158, 121, 84); font-size: 40px; font-family: 'Roboto';">Granite</p></b></h3></a>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100 header-height"
-              src="assets/img/background/green marbel application image (1).jpg"
-              alt="Third slide">
-              <a href="#third-slider" class="section-title1 links_banner" ><h3><b><img src="assets/img/Realm_Logo.png" alt=""><br><p style="line-height: 25px; margin-top: 15px; color: rgb(158, 121, 84); font-size: 40px; font-family: 'Roboto';">Sandstone</p></b></h3></a>
-              <!-- <a href="#third-slider" class="section-title1 links_banner" ><h3><img src="assets/img/Realm_Logo.png" alt=""> <br><p style="margin-bottom: 0!important;">Sandstone</p></b></h3></a> -->
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100 header-height"
-              src="assets/img/background/Calcutta Quartz kitchen Countertop.png"
-              alt="Fourth Slider">
-              <a href="#fourth-slider" class="section-title1 links_banner" ><h3><b><img src="assets/img/Realm_Logo.png" alt=""><br><p style="line-height: 25px; margin-top: 15px; color: rgb(158, 121, 84); font-size: 40px; font-family: 'Roboto';">Quartz</p></b></h3></a>
-              <!-- <a href="#fourth-slider" class="section-title1 links_banner" ><h3><img src="assets/img/Realm_Logo.png" alt=""> <br><p style="margin-bottom: 0!important;">Quartz</p></b></h3></a> -->
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls"
-          role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls"
-          role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-    </section>
+    <div class="tagline container p-0">
+      <marquee behavior="" direction="left">Exporters & Suppliers of Marble, Quartz, Granite and Sandstone From India</marquee>
+    </div>
+  </header>
 
-    <main id="main">
-      <!-- Services Section -->
-      <section class="services portfolio section-bg" id="portfolio">
-        <div class="container" data-aos="fade-up">
-          <div class="section-title">
-            <h2>Products</h2>
-            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur
+  <!-- End Header -->
+
+
+  <div class="tagline-mobile">
+    <div class="container">
+      Exporters & Suppliers From India.
+    </div>
+  </div>
+  <section id="hero" class="d-flex align-items-center" style="padding-bottom: 0;">
+    <div id="carouselExampleControls" class="carousel slide" style="width: 100%;" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100 header-height" src="assets/img/background/Fantasy Brown Marble.png"
+            alt="First slide">
+          <a href="#first-slider" class="section-title1 links_banner">
+            <h3><div><img src="assets/img/Realm_Logo.png" alt=""><br>
+                <p
+                  style=" margin-top: 15px; color: rgb(158, 121, 84); font-size: 60px; font-family: 'Roboto';">
+                  Marble</p>
+            </div></h3>
+          </a>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100 header-height" src="assets/img/background/Black Galaxy Granite vanity top (1).jpg"
+            alt="Second slide">
+          <a href="#second-slider" class="section-title1 links_banner">
+            <h3><div><img src="assets/img/Realm_Logo.png" alt=""><br>
+                <p
+                  style=" margin-top: 15px; color: rgb(158, 121, 84); font-size: 60px; font-family: 'Roboto';">
+                  Granite</p>
+            </div></h3>
+          </a>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100 header-height" src="assets/img/background/green marbel application image (1).jpg"
+            alt="Third slide">
+          <a href="#third-slider" class="section-title1 links_banner">
+            <h3><div><img src="assets/img/Realm_Logo.png" alt=""><br>
+                <p
+                  style=" margin-top: 15px; color: rgb(158, 121, 84); font-size: 60px; font-family: 'Roboto';">
+                  Sandstone</p>
+            </div></h3>
+          </a>
+          <!-- <a href="#third-slider" class="section-title1 links_banner" ><h3><img src="assets/img/Realm_Logo.png" alt=""> <br><p style="margin-bottom: 0!important;">Sandstone</p></b></h3></a> -->
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100 header-height" src="assets/img/background/Calcutta Quartz kitchen Countertop.png"
+            alt="Fourth Slider">
+          <a href="#fourth-slider" class="section-title1 links_banner">
+            <h3><div><img src="assets/img/Realm_Logo.png" alt=""><br>
+                <p
+                  style=" margin-top: 15px; color: rgb(158, 121, 84); font-size: 60px; font-family: 'Roboto';">
+                  Quartz</p>
+            </div></h3>
+          </a>
+          <!-- <a href="#fourth-slider" class="section-title1 links_banner" ><h3><img src="assets/img/Realm_Logo.png" alt=""> <br><p style="margin-bottom: 0!important;">Quartz</p></b></h3></a> -->
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
+
+  <main id="main">
+    <!-- Services Section -->
+    <section class="services portfolio section-bg" id="portfolio">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title p-0">
+          <h2>Products</h2>
+          <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur
               ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
               quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-              Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+              Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
+        </div>
+
+        <div class="section-title1 first-slider" id="first-slider">
+          <h3>Echon Realm Marble</h3>
+        </div>
+        <div class="owl-carousel owl-theme">
+
+          <div class="portfolio-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="portfolio-item">
+              <div class="portfolio-img"><img src="assets/img/Marble/Spider Green.jpg" class="img-fluid" alt=""></div>
+              <div class="portfolio-info">
+                <h4>Spider Green Marble</h4>
+                <p>ERM-01</p>
+                <a href="assets/img/Marble/Spider Green.jpg" data-gallery="portfolioGallery" class="
+                    preview-link"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
           </div>
-
-          <div class="section-title1 first-slider" id="first-slider">
-            <h3>Echon Realm Marble</h3>
-          </div>
-          <div class="owl-carousel owl-theme">
-
-            <div class="portfolio-container" data-aos="fade-up"
-              data-aos-delay="200">
-                    <div class="portfolio-item">
-                      <div class="portfolio-img">
-                        <a href="assets/img/Marble/Spider Green.jpg"
-                    data-gallery="portfolioGallery" class="preview-link"><img
-                          src="assets/img/Marble/Spider Green.jpg"
-                          class="img-fluid"
-                          alt=""></a>
-                      </div>
-                    <div class="portfolio-info">
-                      <h4>Spider Green Marble</h4>
-                      <p>ERM-01</p>
-                    </div>
-                  </div>
-            </div>
-
-            <div class="portfolio-container" data-aos="fade-up"
-              data-aos-delay="200">
-              <div class="portfolio-item">
-                <div class="portfolio-img"><img
-                    src="assets/img/Marble/Green_Marble.jpg" class="img-fluid"
-                    alt=""></div>
-                <div class="portfolio-info">
-                  <h4>Green Marble</h4>
-                  <p>ERM-02</p>
-                  <a href="assets/img/Marble/Green_Marble.jpg"
-                    data-gallery="portfolioGallery" class="portfolio-lightbox
+          <div class="portfolio-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="portfolio-item">
+              <div class="portfolio-img"><img src="assets/img/Marble/Green_Marble.jpg" class="img-fluid" alt=""></div>
+              <div class="portfolio-info">
+                <h4>Green Marble</h4>
+                <p>ERM-02</p>
+                <a href="assets/img/Marble/Green_Marble.jpg" data-gallery="portfolioGallery" class="
                     preview-link"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="portfolio-container" data-aos="fade-up"
-              data-aos-delay="200">
-              <div class="portfolio-item">
-                <div class="portfolio-img"><img
-                    src="assets/img/Marble/Pink_Onyx.jpg" class="img-fluid"
-                    alt=""></div>
-                <div class="portfolio-info">
-                  <h4>Pink Onyx</h4>
-                  <p>ERM-03</p>
-                  <a href="assets/img/Marble/Pink_Onyx.jpg"
-                    data-gallery="portfolioGallery" class="portfolio-lightbox
-                    preview-link"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="portfolio-container" data-aos="fade-up"
-              data-aos-delay="200">
-              <div class="portfolio-item">
-                <div class="portfolio-img"><img
-                    src="assets/img/Marble/FANTASY BROWN 1.jpg" class="img-fluid"
-                    alt=""></div>
-                <div class="portfolio-info">
-                  <h4>Fantasy Brown 1</h4>
-                  <p>ERM-04</p>
-                  <a href="assets/img/Marble/FANTASY BROWN 1.jpg"
-                    data-gallery="portfolioGallery" class="portfolio-lightbox
-                    preview-link"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="portfolio-container" data-aos="fade-up"
-              data-aos-delay="200">
-              <div class="portfolio-item">
-                <div class="portfolio-img"><img
-                    src="assets/img/Marble/FANTASY BROWN 2.jpg" class="img-fluid"
-                    alt=""></div>
-                <div class="portfolio-info">
-                  <h4>Fantasy Brown 2</h4>
-                  <p>ERM-05</p>
-                  <a href="assets/img/Marble/FANTASY BROWN 2.jpg"
-                    data-gallery="portfolioGallery" class="portfolio-lightbox
-                    preview-link"><i class="bx bx-plus"></i></a>
-                </div>
               </div>
             </div>
           </div>
 
-          <div class="section-title1 second-slider" id="second-slider">
-            <h3>Echon Realm Granite</h3>
-          </div>
-
-          <div class="owl-carousel owl-theme">
-            <div class="portfolio-container" data-aos="fade-up"
-              data-aos-delay="200">
-              <div class="portfolio-item">
-                <div class="portfolio-img"><img
-                    src="assets/img/granite_images/Black Galaxy.jpg"
-                    class="img-fluid"
-                    alt="">
-                </div>
-                <div class="portfolio-info">
-                  <h4>Black galaxy</h4>
-                  <p>ERG-01</p>
-                  <a
-                    href="assets/img/granite_images/Black Galaxy.jpg"
-                    data-gallery="portfolioGallery" class="portfolio-lightbox
+          <div class="portfolio-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="portfolio-item">
+              <div class="portfolio-img"><img src="assets/img/Marble/Pink_Onyx.jpg" class="img-fluid" alt=""></div>
+              <div class="portfolio-info">
+                <h4>Pink Onyx</h4>
+                <p>ERM-03</p>
+                <a href="assets/img/Marble/Pink_Onyx.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox
                     preview-link"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="portfolio-container" data-aos="fade-up"
-              data-aos-delay="200">
-              <div class="portfolio-item">
-                <div class="portfolio-img"><img
-                    src="assets/img/granite_images/Imperial red.jpg" class="img-fluid"
-                    alt=""></div>
-                <div class="portfolio-info">
-                  <h4>Imperial red</h4>
-                  <p>ERG-02</p>
-                  <a href="assets/img/granite_images/Imperial red.jpg"
-                    data-gallery="portfolioGallery" class="portfolio-lightbox
-                    preview-link"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="portfolio-container" data-aos="fade-up"
-              data-aos-delay="200">
-              <div class="portfolio-item">
-                <div class="portfolio-img"><img
-                    src="assets/img/granite_images/Multi Red.jpg" class="img-fluid"
-                    alt=""></div>
-                <div class="portfolio-info">
-                  <h4>Multi red</h4>
-                  <p>ERG-03</p>
-                  <a href="assets/img/granite_images/Multi Red.jpg"
-                    data-gallery="portfolioGallery" class="portfolio-lightbox
-                    preview-link"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="portfolio-container" data-aos="fade-up"
-              data-aos-delay="200">
-              <div class="portfolio-item">
-                <div class="portfolio-img"><img
-                    src="assets/img/granite_images/Tan Brown.jpg" class="img-fluid"
-                    alt=""></div>
-                <div class="portfolio-info">
-                  <h4>Tan brown</h4>
-                  <p>ERG-04</p>
-                  <a href="assets/img/granite_images/Tan Brown.jpg"
-                    data-gallery="portfolioGallery" class="portfolio-lightbox
-                    preview-link"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="portfolio-container" data-aos="fade-up"
-              data-aos-delay="200">
-              <div class="portfolio-item">
-                <div class="portfolio-img"><img
-                    src="assets/img/granite_images/Steel Grey.jpg" class="img-fluid"
-                    alt=""></div>
-                <div class="portfolio-info">
-                  <h4>Steel grey</h4>
-                  <p>ERG-05</p>
-                  <a href="assets/img/granite_images/Steel Grey.jpg"
-                    data-gallery="portfolioGallery" class="portfolio-lightbox
-                    preview-link"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="portfolio-container" data-aos="fade-up"
-              data-aos-delay="200">
-              <div class="portfolio-item">
-                <div class="portfolio-img"><img
-                    src="assets/img/granite_images/Paradiso.png" class="img-fluid"
-                    alt=""></div>
-                <div class="portfolio-info">
-                  <h4>Paradiso</h4>
-                  <p>ERG-06</p>
-                  <a href="assets/img/granite_images/Paradiso.png"
-                    data-gallery="portfolioGallery" class="portfolio-lightbox
-                    preview-link"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="portfolio-container" data-aos="fade-up"
-              data-aos-delay="200">
-              <div class="portfolio-item">
-                <div class="portfolio-img"><img
-                    src="assets/img/granite_images/Hassan green.jpg" class="img-fluid"
-                    alt=""></div>
-                <div class="portfolio-info">
-                  <h4>Hassan green</h4>
-                  <p>ERG-07</p>
-                  <a href="assets/img/granite_images/Hassan green.jpg"
-                    data-gallery="portfolioGallery" class="portfolio-lightbox
-                    preview-link"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="portfolio-container" data-aos="fade-up"
-              data-aos-delay="200">
-              <div class="portfolio-item">
-                <div class="portfolio-img"><img
-                    src="assets/img/granite_images/Peninsular white.jpg" class="img-fluid"
-                    alt=""></div>
-                <div class="portfolio-info">
-                  <h4>Peninsular White</h4>
-                  <p>ERG-08</p>
-                  <a href="assets/img/granite_images/Peninsular white.jpg"
-                    data-gallery="portfolioGallery" class="portfolio-lightbox
-                    preview-link"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="portfolio-container" data-aos="fade-up"
-              data-aos-delay="200">
-              <div class="portfolio-item">
-                <div class="portfolio-img"><img
-                    src="assets/img/granite_images/Absolute Black.jpg" class="img-fluid"
-                    alt=""></div>
-                <div class="portfolio-info">
-                  <h4>Absolute Black</h4>
-                  <p>ERG-09</p>
-                  <a href="assets/img/granite_images/Absolute Black.jpg"
-                    data-gallery="portfolioGallery" class="portfolio-lightbox
-                    preview-link"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="portfolio-container" data-aos="fade-up"
-              data-aos-delay="200">
-              <div class="portfolio-item">
-                <div class="portfolio-img"><img
-                    src="assets/img/granite_images/White Glimmer.jpg" class="img-fluid"
-                    alt=""></div>
-                <div class="portfolio-info">
-                  <h4>White Glimmer</h4>
-                  <p>ERG-10</p>
-                  <a href="assets/img/granite_images/White Glimmer.jpg"
-                    data-gallery="portfolioGallery" class="portfolio-lightbox
-                    preview-link"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="portfolio-container" data-aos="fade-up"
-              data-aos-delay="200">
-              <div class="portfolio-item">
-                <div class="portfolio-img"><img
-                    src="assets/img/granite_images/Blue Dunes.jpg" class="img-fluid"
-                    alt=""></div>
-                <div class="portfolio-info">
-                  <h4>Blue Dunes</h4>
-                  <p>ERG-11</p>
-                  <a href="assets/img/granite_images/Blue Dunes.jpg"
-                    data-gallery="portfolioGallery" class="portfolio-lightbox
-                    preview-link"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="portfolio-container" data-aos="fade-up"
-              data-aos-delay="200">
-              <div class="portfolio-item">
-                <div class="portfolio-img"><img
-                    src="assets/img/granite_images/crystal pink .png" class="img-fluid"
-                    alt=""></div>
-                <div class="portfolio-info">
-                  <h4>Crystal Pink</h4>
-                  <p>ERG-12</p>
-                  <a href="assets/img/granite_images/crystal pink .png"
-                    data-gallery="portfolioGallery" class="portfolio-lightbox
-                    preview-link"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="portfolio-container" data-aos="fade-up"
-              data-aos-delay="200">
-              <div class="portfolio-item">
-                <div class="portfolio-img"><img
-                    src="assets/img/granite_images/Solaris Gold.jpg" class="img-fluid"
-                    alt=""></div>
-                <div class="portfolio-info">
-                  <h4>Solaris Gold</h4>
-                  <p>ERG-13</p>
-                  <a href="assets/img/granite_images/Solaris Gold.jpg"
-                    data-gallery="portfolioGallery" class="portfolio-lightbox
-                    preview-link"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="portfolio-container" data-aos="fade-up"
-              data-aos-delay="200">
-              <div class="portfolio-item">
-                <div class="portfolio-img"><img
-                    src="assets/img/granite_images/Silver Galaxy.jpg" class="img-fluid"
-                    alt=""></div>
-                <div class="portfolio-info">
-                  <h4>Silver Galaxy</h4>
-                  <p>ERG-14</p>
-                  <a href="assets/img/granite_images/Silver Galaxy.jpg"
-                    data-gallery="portfolioGallery" class="portfolio-lightbox
-                    preview-link"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="portfolio-container" data-aos="fade-up"
-              data-aos-delay="200">
-              <div class="portfolio-item">
-                <div class="portfolio-img"><img
-                    src="assets/img/granite_images/Sand crystal.jpg" class="img-fluid"
-                    alt=""></div>
-                <div class="portfolio-info">
-                  <h4>Sand Crystal</h4>
-                  <p>ERG-15</p>
-                  <a href="assets/img/granite_images/Sand crystal.jpg"
-                    data-gallery="portfolioGallery" class="portfolio-lightbox
-                    preview-link"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="portfolio-container" data-aos="fade-up"
-              data-aos-delay="200">
-              <div class="portfolio-item">
-                <div class="portfolio-img"><img
-                    src="assets/img/granite_images/Nova Grey.jpg" class="img-fluid"
-                    alt=""></div>
-                <div class="portfolio-info">
-                  <h4>Nova Grey</h4>
-                  <p>ERG-16</p>
-                  <a href="assets/img/granite_images/Nova Grey.jpg"
-                    data-gallery="portfolioGallery" class="portfolio-lightbox
-                    preview-link"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="portfolio-container" data-aos="fade-up"
-              data-aos-delay="200">
-              <div class="portfolio-item">
-                <div class="portfolio-img"><img
-                    src="assets/img/granite_images/Aerion black.jpg" class="img-fluid"
-                    alt=""></div>
-                <div class="portfolio-info">
-                  <h4>Aerion Black</h4>
-                  <p>ERG-17</p>
-                    <a href="assets/img/granite_images/Aerion black.jpg"
-                    data-gallery="portfolioGallery" class="portfolio-lightbox
-                    preview-link"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="portfolio-container" data-aos="fade-up"
-              data-aos-delay="200">
-              <div class="portfolio-item">
-                <div class="portfolio-img"><img
-                    src="assets/img/granite_images/Antique grey.jpg" class="img-fluid"
-                    alt=""></div>
-                <div class="portfolio-info">
-                  <h4>Antique Grey</h4>
-                  <p>ERG-18</p>
-                  <a href="assets/img/granite_images/Antique grey.jpg"
-                    data-gallery="portfolioGallery" class="portfolio-lightbox
-                    preview-link"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="portfolio-container" data-aos="fade-up"
-              data-aos-delay="200">
-              <div class="portfolio-item">
-                <div class="portfolio-img"><img
-                    src="assets/img/granite_images/Tiger Skin.jpg" class="img-fluid"
-                    alt=""></div>
-                <div class="portfolio-info">
-                  <h4>Tiger Skin</h4>
-                  <p>ERG-19</p>
-                  <a href="assets/img/granite_images/Tiger Skin.jpg"
-                    data-gallery="portfolioGallery" class="portfolio-lightbox
-                    preview-link"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="portfolio-container" data-aos="fade-up"
-              data-aos-delay="200">
-              <div class="portfolio-item">
-                <div class="portfolio-img"><img
-                    src="assets/img/granite_images/Classico Pink.jpg" class="img-fluid"
-                    alt=""></div>
-                <div class="portfolio-info">
-                  <h4>Classico Pink</h4>
-                  <p>ERG-20</p>
-                  <a href="assets/img/granite_images/Classico Pink.jpg"
-                    data-gallery="portfolioGallery" class="portfolio-lightbox
-                    preview-link"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="portfolio-container" data-aos="fade-up"
-              data-aos-delay="200">
-              <div class="portfolio-item">
-                <div class="portfolio-img"><img
-                    src="assets/img/granite_images/Marigold Granite.jpg" class="img-fluid"
-                    alt=""></div>
-                <div class="portfolio-info">
-                  <h4>Marigold Granite</h4>
-                  <p>ERG-21</p>
-                  <a href="assets/img/granite_images/Marigold Granite.jpg"
-                    data-gallery="portfolioGallery" class="portfolio-lightbox
-                    preview-link"><i class="bx bx-plus"></i></a>
-                </div>
               </div>
             </div>
           </div>
 
-          <div class="section-title1 third-slider" id="third-slider">
-            <h3>Echon Realm Sandstone</h3>
-          </div>
-          <div class="owl-carousel owl-theme">
-
-            <div class="portfolio-container" data-aos="fade-up"
-              data-aos-delay="200">
-              <div class="portfolio-item">
-                <div class="portfolio-img"><img
-                    src="assets/img/sand_stone/Rainbow Sandstone.jpg"
-                    class="img-fluid"
-                    alt="">
-                </div>
-                <div class="portfolio-info">
-                  <h4>Rainbow</h4>
-                  <p>ERS-01</p>
-                  <a
-                    href="assets/img/sand_stone/Rainbow Sandstone.jpg"
-                    data-gallery="portfolioGallery" class="portfolio-lightbox
-                    preview-link"><i class="bx bx-plus"></i></a>
-                </div>
+          <div class="portfolio-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="portfolio-item">
+              <div class="portfolio-img"><img src="assets/img/Marble/FANTASY BROWN 1.jpg" class="img-fluid" alt="">
               </div>
-            </div>
-
-            <div class="portfolio-container" data-aos="fade-up"
-              data-aos-delay="200">
-              <div class="portfolio-item">
-                <div class="portfolio-img"><img
-                    src="assets/img/sand_stone/Rainforest Gold.jpg" class="img-fluid"
-                    alt=""></div>
-                <div class="portfolio-info">
-                  <h4>Rainforest Gold</h4>
-                  <p>ERS-02</p>
-                  <a href="assets/img/sand_stone/Rainforest Gold.jpg"
-                    data-gallery="portfolioGallery" class="portfolio-lightbox
+              <div class="portfolio-info">
+                <h4>Fantasy Brown 1</h4>
+                <p>ERM-04</p>
+                <a href="assets/img/Marble/FANTASY BROWN 1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox
                     preview-link"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="portfolio-container" data-aos="fade-up"
-              data-aos-delay="200">
-              <div class="portfolio-item">
-                <div class="portfolio-img"><img
-                    src="assets/img/sand_stone/Rainforest Brown.jpg" class="img-fluid"
-                    alt=""></div>
-                <div class="portfolio-info">
-                  <h4>Rainforest Brown</h4>
-                  <p>ERS-03</p>
-                  <a href="assets/img/sand_stone/Rainforest Brown.jpg"
-                    data-gallery="portfolioGallery" class="portfolio-lightbox
-                    preview-link"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="portfolio-container" data-aos="fade-up"
-              data-aos-delay="200">
-              <div class="portfolio-item">
-                <div class="portfolio-img"><img
-                    src="assets/img/sand_stone/Rainforest Green.jpg" class="img-fluid"
-                    alt=""></div>
-                <div class="portfolio-info">
-                  <h4>Rainforest Green</h4>
-                  <p>ERS-04</p>
-                  <a href="assets/img/sand_stone/Rainforest Green.jpg"
-                    data-gallery="portfolioGallery" class="portfolio-lightbox
-                    preview-link"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="portfolio-container" data-aos="fade-up"
-              data-aos-delay="200">
-              <div class="portfolio-item">
-                <div class="portfolio-img"><img
-                    src="assets/img/sand_stone/Teakwood sanstone.jpg" class="img-fluid"
-                    alt=""></div>
-                <div class="portfolio-info">
-                  <h4>Teakwood</h4>
-                  <p>ERS-05</p>
-                  <a href="assets/img/sand_stone/Teakwood sanstone.jpg"
-                    data-gallery="portfolioGallery" class="portfolio-lightbox
-                    preview-link"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="portfolio-container" data-aos="fade-up"
-              data-aos-delay="200">
-              <div class="portfolio-item">
-                <div class="portfolio-img"><img
-                    src="assets/img/sand_stone/Jaisalmer_Yellow.jpg" class="img-fluid"
-                    alt=""></div>
-                <div class="portfolio-info">
-                  <h4>Yellowstone/Jaisalmer</h4>
-                  <p>ERS-06</p>
-                  <a href="assets/img/sand_stone/Jaisalmer_Yellow.jpg"
-                    data-gallery="portfolioGallery" class="portfolio-lightbox
-                    preview-link"><i class="bx bx-plus"></i></a>
-                </div>
               </div>
             </div>
           </div>
 
-
-          <div class="section-title1 fourth-slider" id="fourth-slider">
-            <h3>Echon Realm Quartz</h3>
+          <div class="portfolio-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="portfolio-item">
+              <div class="portfolio-img"><img src="assets/img/Marble/FANTASY BROWN 2.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="portfolio-info">
+                <h4>Fantasy Brown 2</h4>
+                <p>ERM-05</p>
+                <a href="assets/img/Marble/FANTASY BROWN 2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox
+                    preview-link"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
           </div>
-          <div class="owl-carousel owl-theme">
+        </div>
 
-            <div class="portfolio-container" data-aos="fade-up"
-              data-aos-delay="200">
-              <div class="portfolio-item">
-                <div class="portfolio-img"><img
-                    src="assets/img/Quartz/Ocean Carrara.png"
-                    class="img-fluid"
-                    alt="">
-                </div>
-                <div class="portfolio-info">
-                  <h4>Ocean Carrara</h4>
-                  <p>ERQ-01</p>
-                  <a
-                    href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsHAmk1uaaS2zAPYgaLEPwoofp--jyYu2B2g&usqp=CAU"
-                    data-gallery="portfolioGallery" class="portfolio-lightbox
+        <div class="section-title1 second-slider" id="second-slider">
+          <h3>Echon Realm Granite</h3>
+        </div>
+
+        <div class="owl-carousel owl-theme">
+          <div class="portfolio-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="portfolio-item">
+              <div class="portfolio-img"><img src="assets/img/granite_images/Black Galaxy.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="portfolio-info">
+                <h4>Black galaxy</h4>
+                <p>ERG-01</p>
+                <a href="assets/img/granite_images/Black Galaxy.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox
                     preview-link"><i class="bx bx-plus"></i></a>
-                </div>
               </div>
             </div>
+          </div>
 
-            <div class="portfolio-container" data-aos="fade-up"
-              data-aos-delay="200">
-              <div class="portfolio-item">
-                <div class="portfolio-img"><img
-                    src="assets/img/Quartz/Carrara Classic.jpg" class="img-fluid"
-                    alt=""></div>
-                <div class="portfolio-info">
-                  <h4>Carrara Classic</h4>
-                  <p>ERQ-02</p>
-                  <a href="assets/img/Quartz/Carrara Classic Quartz kitchen countertop.jpg"
-                    data-gallery="portfolioGallery" class="portfolio-lightbox
+          <div class="portfolio-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="portfolio-item">
+              <div class="portfolio-img"><img src="assets/img/granite_images/Imperial red.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="portfolio-info">
+                <h4>Imperial red</h4>
+                <p>ERG-02</p>
+                <a href="assets/img/granite_images/Imperial red.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox
                     preview-link"><i class="bx bx-plus"></i></a>
-                </div>
               </div>
             </div>
+          </div>
 
-            <div class="portfolio-container" data-aos="fade-up"
-              data-aos-delay="200">
-              <div class="portfolio-item">
-                <div class="portfolio-img"><img
-                    src="assets/img/Quartz/Blanco Carrara.png" class="img-fluid"
-                    alt=""></div>
-                <div class="portfolio-info">
-                  <h4>Bianco Carrara</h4>
-                  <p>ERQ-03</p>
-                  <a href="assets/img/Quartz/BIANCO CARRARA.png"
-                    data-gallery="portfolioGallery" class="portfolio-lightbox
+          <div class="portfolio-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="portfolio-item">
+              <div class="portfolio-img"><img src="assets/img/granite_images/Multi Red.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="portfolio-info">
+                <h4>Multi red</h4>
+                <p>ERG-03</p>
+                <a href="assets/img/granite_images/Multi Red.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox
                     preview-link"><i class="bx bx-plus"></i></a>
-                </div>
               </div>
             </div>
+          </div>
 
-            <!-- <div class="portfolio-container" data-aos="fade-up"
+          <div class="portfolio-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="portfolio-item">
+              <div class="portfolio-img"><img src="assets/img/granite_images/Tan Brown.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="portfolio-info">
+                <h4>Tan brown</h4>
+                <p>ERG-04</p>
+                <a href="assets/img/granite_images/Tan Brown.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox
+                    preview-link"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="portfolio-item">
+              <div class="portfolio-img"><img src="assets/img/granite_images/Steel Grey.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="portfolio-info">
+                <h4>Steel grey</h4>
+                <p>ERG-05</p>
+                <a href="assets/img/granite_images/Steel Grey.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox
+                    preview-link"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="portfolio-item">
+              <div class="portfolio-img"><img src="assets/img/granite_images/Paradiso.png" class="img-fluid" alt="">
+              </div>
+              <div class="portfolio-info">
+                <h4>Paradiso</h4>
+                <p>ERG-06</p>
+                <a href="assets/img/granite_images/Paradiso.png" data-gallery="portfolioGallery" class="portfolio-lightbox
+                    preview-link"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="portfolio-item">
+              <div class="portfolio-img"><img src="assets/img/granite_images/Hassan green.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="portfolio-info">
+                <h4>Hassan green</h4>
+                <p>ERG-07</p>
+                <a href="assets/img/granite_images/Hassan green.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox
+                    preview-link"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="portfolio-item">
+              <div class="portfolio-img"><img src="assets/img/granite_images/Peninsular white.jpg" class="img-fluid"
+                  alt=""></div>
+              <div class="portfolio-info">
+                <h4>Peninsular White</h4>
+                <p>ERG-08</p>
+                <a href="assets/img/granite_images/Peninsular white.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox
+                    preview-link"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="portfolio-item">
+              <div class="portfolio-img"><img src="assets/img/granite_images/Absolute Black.jpg" class="img-fluid"
+                  alt=""></div>
+              <div class="portfolio-info">
+                <h4>Absolute Black</h4>
+                <p>ERG-09</p>
+                <a href="assets/img/granite_images/Absolute Black.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox
+                    preview-link"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="portfolio-item">
+              <div class="portfolio-img"><img src="assets/img/granite_images/White Glimmer.jpg" class="img-fluid"
+                  alt=""></div>
+              <div class="portfolio-info">
+                <h4>White Glimmer</h4>
+                <p>ERG-10</p>
+                <a href="assets/img/granite_images/White Glimmer.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox
+                    preview-link"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="portfolio-item">
+              <div class="portfolio-img"><img src="assets/img/granite_images/Blue Dunes.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="portfolio-info">
+                <h4>Blue Dunes</h4>
+                <p>ERG-11</p>
+                <a href="assets/img/granite_images/Blue Dunes.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox
+                    preview-link"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="portfolio-item">
+              <div class="portfolio-img"><img src="assets/img/granite_images/crystal pink .png" class="img-fluid"
+                  alt=""></div>
+              <div class="portfolio-info">
+                <h4>Crystal Pink</h4>
+                <p>ERG-12</p>
+                <a href="assets/img/granite_images/crystal pink .png" data-gallery="portfolioGallery" class="portfolio-lightbox
+                    preview-link"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="portfolio-item">
+              <div class="portfolio-img"><img src="assets/img/granite_images/Solaris Gold.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="portfolio-info">
+                <h4>Solaris Gold</h4>
+                <p>ERG-13</p>
+                <a href="assets/img/granite_images/Solaris Gold.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox
+                    preview-link"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="portfolio-item">
+              <div class="portfolio-img"><img src="assets/img/granite_images/Silver Galaxy.jpg" class="img-fluid"
+                  alt=""></div>
+              <div class="portfolio-info">
+                <h4>Silver Galaxy</h4>
+                <p>ERG-14</p>
+                <a href="assets/img/granite_images/Silver Galaxy.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox
+                    preview-link"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="portfolio-item">
+              <div class="portfolio-img"><img src="assets/img/granite_images/Sand crystal.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="portfolio-info">
+                <h4>Sand Crystal</h4>
+                <p>ERG-15</p>
+                <a href="assets/img/granite_images/Sand crystal.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox
+                    preview-link"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="portfolio-item">
+              <div class="portfolio-img"><img src="assets/img/granite_images/Nova Grey.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="portfolio-info">
+                <h4>Nova Grey</h4>
+                <p>ERG-16</p>
+                <a href="assets/img/granite_images/Nova Grey.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox
+                    preview-link"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="portfolio-item">
+              <div class="portfolio-img"><img src="assets/img/granite_images/Aerion black.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="portfolio-info">
+                <h4>Aerion Black</h4>
+                <p>ERG-17</p>
+                <a href="assets/img/granite_images/Aerion black.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox
+                    preview-link"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="portfolio-item">
+              <div class="portfolio-img"><img src="assets/img/granite_images/Antique grey.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="portfolio-info">
+                <h4>Antique Grey</h4>
+                <p>ERG-18</p>
+                <a href="assets/img/granite_images/Antique grey.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox
+                    preview-link"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="portfolio-item">
+              <div class="portfolio-img"><img src="assets/img/granite_images/Tiger Skin.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="portfolio-info">
+                <h4>Tiger Skin</h4>
+                <p>ERG-19</p>
+                <a href="assets/img/granite_images/Tiger Skin.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox
+                    preview-link"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="portfolio-item">
+              <div class="portfolio-img"><img src="assets/img/granite_images/Classico Pink.jpg" class="img-fluid"
+                  alt=""></div>
+              <div class="portfolio-info">
+                <h4>Classico Pink</h4>
+                <p>ERG-20</p>
+                <a href="assets/img/granite_images/Classico Pink.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox
+                    preview-link"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="portfolio-item">
+              <div class="portfolio-img"><img src="assets/img/granite_images/Marigold Granite.jpg" class="img-fluid"
+                  alt=""></div>
+              <div class="portfolio-info">
+                <h4>Marigold Granite</h4>
+                <p>ERG-21</p>
+                <a href="assets/img/granite_images/Marigold Granite.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox
+                    preview-link"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-title1 third-slider" id="third-slider">
+          <h3>Echon Realm Sandstone</h3>
+        </div>
+        <div class="owl-carousel owl-theme">
+
+          <div class="portfolio-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="portfolio-item">
+              <div class="portfolio-img"><img src="assets/img/sand_stone/Rainbow Sandstone.jpg" class="img-fluid"
+                  alt="">
+              </div>
+              <div class="portfolio-info">
+                <h4>Rainbow</h4>
+                <p>ERS-01</p>
+                <a href="assets/img/sand_stone/Rainbow Sandstone.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox
+                    preview-link"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="portfolio-item">
+              <div class="portfolio-img"><img src="assets/img/sand_stone/Rainforest Gold.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="portfolio-info">
+                <h4>Rainforest Gold</h4>
+                <p>ERS-02</p>
+                <a href="assets/img/sand_stone/Rainforest Gold.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox
+                    preview-link"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="portfolio-item">
+              <div class="portfolio-img"><img src="assets/img/sand_stone/Rainforest Brown.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="portfolio-info">
+                <h4>Rainforest Brown</h4>
+                <p>ERS-03</p>
+                <a href="assets/img/sand_stone/Rainforest Brown.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox
+                    preview-link"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="portfolio-item">
+              <div class="portfolio-img"><img src="assets/img/sand_stone/Rainforest Green.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="portfolio-info">
+                <h4>Rainforest Green</h4>
+                <p>ERS-04</p>
+                <a href="assets/img/sand_stone/Rainforest Green.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox
+                    preview-link"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="portfolio-item">
+              <div class="portfolio-img"><img src="assets/img/sand_stone/Teakwood sanstone.jpg" class="img-fluid"
+                  alt=""></div>
+              <div class="portfolio-info">
+                <h4>Teakwood</h4>
+                <p>ERS-05</p>
+                <a href="assets/img/sand_stone/Teakwood sanstone.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox
+                    preview-link"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="portfolio-item">
+              <div class="portfolio-img"><img src="assets/img/sand_stone/Jaisalmer_Yellow.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="portfolio-info">
+                <h4>Yellowstone/Jaisalmer</h4>
+                <p>ERS-06</p>
+                <a href="assets/img/sand_stone/Jaisalmer_Yellow.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox
+                    preview-link"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="section-title1 fourth-slider" id="fourth-slider">
+          <h3>Echon Realm Quartz</h3>
+        </div>
+        <div class="owl-carousel owl-theme">
+
+          <div class="portfolio-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="portfolio-item">
+              <div class="portfolio-img"><img src="assets/img/Quartz/Ocean Carrara.png" class="img-fluid" alt="">
+              </div>
+              <div class="portfolio-info">
+                <h4>Ocean Carrara</h4>
+                <p>ERQ-01</p>
+                <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsHAmk1uaaS2zAPYgaLEPwoofp--jyYu2B2g&usqp=CAU"
+                  data-gallery="portfolioGallery" class="portfolio-lightbox
+                    preview-link"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="portfolio-item">
+              <div class="portfolio-img"><img src="assets/img/Quartz/Carrara Classic.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="portfolio-info">
+                <h4>Carrara Classic</h4>
+                <p>ERQ-02</p>
+                <a href="assets/img/Quartz/Carrara Classic Quartz kitchen countertop.jpg"
+                  data-gallery="portfolioGallery" class="portfolio-lightbox
+                    preview-link"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="portfolio-item">
+              <div class="portfolio-img"><img src="assets/img/Quartz/Blanco Carrara.png" class="img-fluid" alt=""></div>
+              <div class="portfolio-info">
+                <h4>Bianco Carrara</h4>
+                <p>ERQ-03</p>
+                <a href="assets/img/Quartz/BIANCO CARRARA.png" data-gallery="portfolioGallery" class="portfolio-lightbox
+                    preview-link"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="portfolio-container" data-aos="fade-up"
               data-aos-delay="200">
               <div class="portfolio-item">
                 <div class="portfolio-img"><img
@@ -759,23 +658,19 @@
               </div>
             </div> -->
 
-            <div class="portfolio-container" data-aos="fade-up"
-              data-aos-delay="200">
-              <div class="portfolio-item">
-                <div class="portfolio-img"><img
-                    src="assets/img/Quartz/Pebble Grey.png" class="img-fluid"
-                    alt=""></div>
-                <div class="portfolio-info">
-                  <h4>Pebble Grey</h4>
-                  <p>ERQ-05</p>
-                  <a href="assets/img/Quartz/Pebble grey.jpeg"
-                    data-gallery="portfolioGallery" class="portfolio-lightbox
+          <div class="portfolio-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="portfolio-item">
+              <div class="portfolio-img"><img src="assets/img/Quartz/Pebble Grey.png" class="img-fluid" alt=""></div>
+              <div class="portfolio-info">
+                <h4>Pebble Grey</h4>
+                <p>ERQ-05</p>
+                <a href="assets/img/Quartz/Pebble grey.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox
                     preview-link"><i class="bx bx-plus"></i></a>
-                </div>
               </div>
             </div>
+          </div>
 
-            <!-- <div class="portfolio-container" data-aos="fade-up"
+          <!-- <div class="portfolio-container" data-aos="fade-up"
               data-aos-delay="200">
               <div class="portfolio-item">
                 <div class="portfolio-img"><img
@@ -791,7 +686,7 @@
               </div>
             </div> -->
 
-            <!-- <div class="portfolio-container" data-aos="fade-up"
+          <!-- <div class="portfolio-container" data-aos="fade-up"
               data-aos-delay="200">
               <div class="portfolio-item">
                 <div class="portfolio-img"><img
@@ -807,7 +702,7 @@
               </div>
             </div> -->
 
-            <!-- <div class="portfolio-container" data-aos="fade-up"
+          <!-- <div class="portfolio-container" data-aos="fade-up"
               data-aos-delay="200">
               <div class="portfolio-item">
                 <div class="portfolio-img"><img
@@ -823,103 +718,79 @@
               </div>
             </div> -->
 
-            <div class="portfolio-container" data-aos="fade-up"
-              data-aos-delay="200">
-              <div class="portfolio-item">
-                <div class="portfolio-img"><img
-                    src="assets/img/Quartz/White Cloud.jpg" class="img-fluid"
-                    alt=""></div>
-                <div class="portfolio-info">
-                  <h4>Ice White</h4>
-                  <p>ERQ-09</p>
-                  <a href="assets/img/portfolio/portfolio-4.jpg"
-                    data-gallery="portfolioGallery" class="portfolio-lightbox
+          <div class="portfolio-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="portfolio-item">
+              <div class="portfolio-img"><img src="assets/img/Quartz/White Cloud.jpg" class="img-fluid" alt=""></div>
+              <div class="portfolio-info">
+                <h4>Ice White</h4>
+                <p>ERQ-09</p>
+                <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox
                     preview-link"><i class="bx bx-plus"></i></a>
-                </div>
               </div>
             </div>
+          </div>
 
-            <div class="portfolio-container" data-aos="fade-up"
-              data-aos-delay="200">
-              <div class="portfolio-item">
-                <div class="portfolio-img"><img
-                    src="assets/img/Quartz/Pearl White.jpg" class="img-fluid"
-                    alt=""></div>
-                <div class="portfolio-info">
-                  <h4>Pearl White</h4>
-                  <p>ERQ-10</p>
-                  <a href="assets/img/portfolio/portfolio-4.jpg"
-                    data-gallery="portfolioGallery" class="portfolio-lightbox
+          <div class="portfolio-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="portfolio-item">
+              <div class="portfolio-img"><img src="assets/img/Quartz/Pearl White.jpg" class="img-fluid" alt=""></div>
+              <div class="portfolio-info">
+                <h4>Pearl White</h4>
+                <p>ERQ-10</p>
+                <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox
                     preview-link"><i class="bx bx-plus"></i></a>
-                </div>
               </div>
             </div>
+          </div>
 
-            <div class="portfolio-container" data-aos="fade-up"
-              data-aos-delay="200">
-              <div class="portfolio-item">
-                <div class="portfolio-img"><img
-                    src="assets/img/Quartz/white mist.png" class="img-fluid"
-                    alt=""></div>
-                <div class="portfolio-info">
-                  <h4>White Mist</h4>
-                  <p>ERQ-11</p>
-                  <a href="assets/img/portfolio/portfolio-4.jpg"
-                    data-gallery="portfolioGallery" class="portfolio-lightbox
+          <div class="portfolio-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="portfolio-item">
+              <div class="portfolio-img"><img src="assets/img/Quartz/white mist.png" class="img-fluid" alt=""></div>
+              <div class="portfolio-info">
+                <h4>White Mist</h4>
+                <p>ERQ-11</p>
+                <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox
                     preview-link"><i class="bx bx-plus"></i></a>
-                </div>
               </div>
             </div>
+          </div>
 
-            <div class="portfolio-container" data-aos="fade-up"
-              data-aos-delay="200">
-              <div class="portfolio-item">
-                <div class="portfolio-img"><img
-                    src="assets/img/Quartz/White Cloud.jpg" class="img-fluid"
-                    alt=""></div>
-                <div class="portfolio-info">
-                  <h4>White Cloud</h4>
-                  <p>ERQ-12</p>
-                  <a href="assets/img/Quartz/White Cloud.jpg"
-                    data-gallery="portfolioGallery" class="portfolio-lightbox
+          <div class="portfolio-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="portfolio-item">
+              <div class="portfolio-img"><img src="assets/img/Quartz/White Cloud.jpg" class="img-fluid" alt=""></div>
+              <div class="portfolio-info">
+                <h4>White Cloud</h4>
+                <p>ERQ-12</p>
+                <a href="assets/img/Quartz/White Cloud.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox
                     preview-link"><i class="bx bx-plus"></i></a>
-                </div>
               </div>
             </div>
+          </div>
 
-            <div class="portfolio-container" data-aos="fade-up"
-              data-aos-delay="200">
-              <div class="portfolio-item">
-                <div class="portfolio-img"><img
-                    src="assets/img/Quartz/White Streaks.jpg" class="img-fluid"
-                    alt=""></div>
-                <div class="portfolio-info">
-                  <h4>White Streaks</h4>
-                  <p>ERQ-13</p>
-                  <a href="assets/img/Quartz/White Streaks.jpg"
-                    data-gallery="portfolioGallery" class="portfolio-lightbox
+          <div class="portfolio-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="portfolio-item">
+              <div class="portfolio-img"><img src="assets/img/Quartz/White Streaks.jpg" class="img-fluid" alt=""></div>
+              <div class="portfolio-info">
+                <h4>White Streaks</h4>
+                <p>ERQ-13</p>
+                <a href="assets/img/Quartz/White Streaks.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox
                     preview-link"><i class="bx bx-plus"></i></a>
-                </div>
               </div>
             </div>
+          </div>
 
-            <div class="portfolio-container" data-aos="fade-up"
-              data-aos-delay="200">
-              <div class="portfolio-item">
-                <div class="portfolio-img"><img
-                    src="assets/img/Quartz/Classic White.png" class="img-fluid"
-                    alt=""></div>
-                <div class="portfolio-info">
-                  <h4>Classic White</h4>
-                  <p>ERQ-14</p>
-                  <a href="assets/img/Quartz/Classic White.png"
-                    data-gallery="portfolioGallery" class="portfolio-lightbox
+          <div class="portfolio-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="portfolio-item">
+              <div class="portfolio-img"><img src="assets/img/Quartz/Classic White.png" class="img-fluid" alt=""></div>
+              <div class="portfolio-info">
+                <h4>Classic White</h4>
+                <p>ERQ-14</p>
+                <a href="assets/img/Quartz/Classic White.png" data-gallery="portfolioGallery" class="portfolio-lightbox
                     preview-link"><i class="bx bx-plus"></i></a>
-                </div>
               </div>
             </div>
+          </div>
 
-            <!-- <div class="portfolio-container" data-aos="fade-up"
+          <!-- <div class="portfolio-container" data-aos="fade-up"
               data-aos-delay="200">
               <div class="portfolio-item">
                 <div class="portfolio-img"><img
@@ -935,7 +806,7 @@
               </div>
             </div> -->
 
-            <!-- <div class="portfolio-container" data-aos="fade-up"
+          <!-- <div class="portfolio-container" data-aos="fade-up"
               data-aos-delay="200">
               <div class="portfolio-item">
                 <div class="portfolio-img"><img
@@ -951,7 +822,7 @@
               </div>
             </div> -->
 
-            <!-- <div class="portfolio-container" data-aos="fade-up"
+          <!-- <div class="portfolio-container" data-aos="fade-up"
               data-aos-delay="200">
               <div class="portfolio-item">
                 <div class="portfolio-img"><img
@@ -967,70 +838,63 @@
               </div>
             </div> -->
 
-            <div class="portfolio-container" data-aos="fade-up"
-              data-aos-delay="200">
-              <div class="portfolio-item">
-                <div class="portfolio-img"><img
-                    src="assets/img/Quartz/Premium grey.png" class="img-fluid"
-                    alt=""></div>
-                <div class="portfolio-info">
-                  <h4>Premium Grey</h4>
-                  <p>ERQ-18</p>
-                  <a href="assets/img/portfolio/portfolio-4.jpg"
-                    data-gallery="portfolioGallery" class="portfolio-lightbox
+          <div class="portfolio-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="portfolio-item">
+              <div class="portfolio-img"><img src="assets/img/Quartz/Premium grey.png" class="img-fluid" alt=""></div>
+              <div class="portfolio-info">
+                <h4>Premium Grey</h4>
+                <p>ERQ-18</p>
+                <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox
                     preview-link"><i class="bx bx-plus"></i></a>
-                </div>
               </div>
             </div>
+          </div>
 
-            <div class="portfolio-container" data-aos="fade-up"
-              data-aos-delay="200">
-              <div class="portfolio-item">
-                <div class="portfolio-img"><img
-                    src="assets/img/Quartz/Calcutta.jpg" class="img-fluid"
-                    alt=""></div>
-                <div class="portfolio-info">
-                  <h4>Calcutta</h4>
-                  <p>ERQ-19</p>
-                  <a href="assets/img/Quartz/Calcutta quartz.jpg"
-                    data-gallery="portfolioGallery" class="portfolio-lightbox
+          <div class="portfolio-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="portfolio-item">
+              <div class="portfolio-img"><img src="assets/img/Quartz/Calcutta.jpg" class="img-fluid" alt=""></div>
+              <div class="portfolio-info">
+                <h4>Calcutta</h4>
+                <p>ERQ-19</p>
+                <a href="assets/img/Quartz/Calcutta quartz.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox
                     preview-link"><i class="bx bx-plus"></i></a>
-                </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
-      <!-- End Services Section -->
+      </div>
+    </section>
+    <!-- End Services Section -->
 
-      <section class="specification" style="background-color: rgb(48, 48, 48, 0.9); margin: 30px 0;">
-        <div class="section-title" style="color: #fff!important;">
-          <h2 style="color: #fff!important;">Specification for Marble, Quartz, Granite, Sandstone</h2>
-            <div class="container">
-              <h5 style="text-align: center;  margin: 0 55px;">Thickness - 2 CM/ 3 CM</h5>
-                <ul style="font-size: 20px; display: flex; padding-left: 0!important; list-style: none; justify-content: left; margin: 15px 25px;">
-                  <div class="row">
-                    <div class="col-lg-3">
-                      1. Leather Finish
-                    </div>
-                    <div class="col-lg-3">
-                      2. Bush Hammered Finish
-                    </div>
-                    <div class="col-lg-3">
-                      3. Flamed Finish
-                    </div>
-                    <div class="col-lg-3">
-                      4. Laptora Finish
-                    </div>
-                    <div class="col-lg-3">
-                      5. Honed Finish
-                    </div>
-                  </div>
-                </ul>
-              
+    <section class="specification" style="background-color: rgb(48, 48, 48, 0.9); margin: 30px 0;">
+      <div class="section-title" style="color: #fff!important;">
+        <h2 style="color: #fff!important;">Specification for Marble, Quartz, Granite, Sandstone</h2>
+        <div class="container">
+          <h5 style="text-align: center;  margin: 0 55px;">Thickness - 2 CM/ 3 CM</h5>
+          <ul
+            style="font-size: 20px; display: flex; padding-left: 0!important; list-style: none; justify-content: left; margin: 15px 25px;">
+            <div class="row">
+              <div class="col-lg-3">
+                1. Leather Finish
+              </div>
+              <div class="col-lg-3">
+                2. Bush Hammered Finish
+              </div>
+              <div class="col-lg-3">
+                3. Flamed Finish
+              </div>
+              <div class="col-lg-3">
+                4. Laptora Finish
+              </div>
+              <div class="col-lg-3">
+                5. Honed Finish
+              </div>
             </div>
+          </ul>
 
-              <!-- <ul>
+        </div>
+
+        <!-- <ul>
                 <li>1. Leather Finish</li>
                 <li> 2. Bush Hammered Finish </li>
                 <li> 3. Flamed Finish</li>
@@ -1038,12 +902,12 @@
                 <li> 5. Honed Finish</li>  
                 Finish Option -      
               </ul> -->
-        </div>
-      </section>
-  
+      </div>
+    </section>
 
-      <!-- ======= Cta Section ======= -->
-      <!-- <section id="cta" class="cta">
+
+    <!-- ======= Cta Section ======= -->
+    <!-- <section id="cta" class="cta">
         <div class="container" data-aos="zoom-in">
 
           <div class="row">
@@ -1061,10 +925,10 @@
 
         </div>
       </section> -->
-      <!-- End Cta Section -->
+    <!-- End Cta Section -->
 
-      <!-- ======= Portfolio Section ======= -->
-      <!-- <section id="portfolio" class="portfolio">
+    <!-- ======= Portfolio Section ======= -->
+    <!-- <section id="portfolio" class="portfolio">
         <div class="container" data-aos="fade-up">
           <div class="section-title">
             <h2>Portfolio</h2>
@@ -1124,10 +988,10 @@
 
         </div>
       </section> -->
-      <!-- End Portfolio Section -->
+    <!-- End Portfolio Section -->
 
-      <!-- ======= Team Section ======= -->
-      <!-- <section id="team" class="team section-bg">
+    <!-- ======= Team Section ======= -->
+    <!-- <section id="team" class="team section-bg">
         <div class="container" data-aos="fade-up">
 
           <div class="section-title">
@@ -1222,10 +1086,10 @@
 
         </div>
       </section> -->
-      <!-- End Team Section -->
+    <!-- End Team Section -->
 
-      <!-- ======= Pricing Section ======= -->
-      <!-- <section id="pricing" class="pricing">
+    <!-- ======= Pricing Section ======= -->
+    <!-- <section id="pricing" class="pricing">
         <div class="container" data-aos="fade-up">
 
           <div class="section-title">
@@ -1293,10 +1157,10 @@
 
         </div>
       </section> -->
-      <!-- End Pricing Section -->
+    <!-- End Pricing Section -->
 
-      <!-- ======= Frequently Asked Questions Section ======= -->
-      <!-- <section id="faq" class="faq section-bg">
+    <!-- ======= Frequently Asked Questions Section ======= -->
+    <!-- <section id="faq" class="faq section-bg">
         <div class="container" data-aos="fade-up">
 
           <div class="section-title">
@@ -1404,99 +1268,90 @@
 
         </div>
       </section> -->
-      <!-- End Frequently Asked Questions Section -->
+    <!-- End Frequently Asked Questions Section -->
 
-      <!-- ======= Contact Section ======= -->
-      <section id="contact" class="contact">
-        <div class="container" data-aos="fade-up">
-          <div class="row">
-            <div class="col-lg-7 mb-5 mt-lg-0 d-block align-items-stretch"
-              style="justify-content: center;">
-              <div class="section-title">
-                <h2>About Us</h2>
-              </div>
-              <div class="row content info m-0">
-                <div class="col-12">
-                  <p style="padding-left: 0;">
-                    ECHON is India's oldest and leading company with 25 years of experience in PVC / WPC manufacturing. <br><br>
-                    We are exporter and supplier of premier quality PVC Board and WPC Board and other products worldwide.
-                    Now we have venture into stone segment under the ECHON REALM Brand. <br><br>
-                    ECHON REALM offer extensive range of stones for various application such as Kitchen Countertop, Vanity Top, Flooring, Wall cladding and many more.<br><br>
-                    ECHON REALM provide semi finished products and work with our customer to customize any design and fabricated end products as per their requirement.
-                  </p>
-                  <!-- <a href="#" class="btn-learn-more">Learn More</a> -->
-                </div>
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg-7 mb-5 mt-lg-0 d-block align-items-stretch" style="justify-content: center;">
+            <div class="section-title">
+              <h2>About Us</h2>
+            </div>
+            <div class="row content info m-0">
+              <div class="col-12">
+                <p style="padding-left: 0;">
+                  ECHON is India's oldest and leading company with 25 years of experience in PVC / WPC manufacturing.
+                  <br><br>
+                  We are exporter and supplier of premier quality PVC Board and WPC Board and other products worldwide.
+                  Now we have venture into stone segment under the ECHON REALM Brand. <br><br>
+                  ECHON REALM offer extensive range of stones for various application such as Kitchen Countertop, Vanity
+                  Top, Flooring, Wall cladding and many more.<br><br>
+                  ECHON REALM provide semi finished products and work with our customer to customize any design and
+                  fabricated end products as per their requirement.
+                </p>
+                <!-- <a href="#" class="btn-learn-more">Learn More</a> -->
               </div>
             </div>
+          </div>
 
-            <div class="col-lg-5 d-block align-items-stretch">
-              <div class="section-title">
-                <h2>Contact Us</h2>
-              </div>
-              <div class="info" style="display: inline-grid; align-items: center;">
-                <div class="email">
-                  <i class="bi bi-envelope"></i>
-                  <h4>Email:</h4>
-                  <p>info@echon.co</p>
-                </div>
-
-                <div class="phone">
-                  <i class="bi bi-phone"></i>
-                  <h4>Call:</h4>
-                  <p>9351228933</p>
-                </div>
+          <div class="col-lg-5 d-block align-items-stretch">
+            <div class="section-title">
+              <h2>Contact Us</h2>
+            </div>
+            <div class="info" style="display: inline-grid; align-items: center;">
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>info@echon.co</p>
               </div>
 
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p>9351228933</p>
+              </div>
             </div>
 
           </div>
 
         </div>
-      </section><!-- End Contact Section -->
 
-    </main><!-- End #main -->
+      </div>
+    </section><!-- End Contact Section -->
 
-    <!-- ======= Footer ======= -->
-    <footer id="footer" class="footer-bottom">
-      <div class="footer-top">
-        <div class="container">
-          <div class="row">
-  
-            <div class="col-lg-4 col-md-6 footer-contact">
-              <h3><img src="assets/img/logo/Echon_Logo_01.png" style="width: 150px;" alt=""></h3>
-              <p>
-                A108 Adam Street <br>
-                New York, NY 535022<br>
-                United States <br><br>
-                <strong>Phone:</strong> 9351228933<br>
-                <strong>Email:</strong> info@echon.co<br>
-              </p>
-            </div>
-<!--   
-            <div class="col-lg-3 col-md-6 footer-links">
-              <h4>Useful Links</h4>
-              <ul>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
-              </ul>
-            </div> -->
-  
-            <div class="col-lg-4 col-md-6 footer-links">
-              <h4>Our Services</h4>
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer-bottom">
+    <div class="footer-tops">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 p-0">
+            <h1 style="padding: 15px 0;"><a href="index.html"><img src="assets/img/logo/Echon_Logo_01.png"
+                  style="width: 150px;" alt=""></a></h1>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-links">
+            <!-- <h4>Our Services</h4>
               <ul>
                 <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
                 <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
                 <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
                 <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
                 <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-              </ul>
+              </ul> -->
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-links px-0">
+            <div class="container footer-bottom clearfix px-0 d-flex justify-content-end">
+              <div class="copyright">
+                &copy; Copyright <strong><span></span></strong>. All Rights
+                Reserved
+              </div>
             </div>
-  
-            <div class="col-lg-4 col-md-6 footer-links">
-              <h4>Follow us on</h4>
+            <!-- <h4>Follow us on</h4>
               <p style="color : #fff">Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
               <div class="social-links mt-3">
                 <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
@@ -1504,73 +1359,70 @@
                 <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
                 <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
                 <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-              </div>
-            </div>
-  
+              </div> -->
           </div>
+
         </div>
       </div>
-    </footer><!-- End Footer -->
+    </div>
+  </footer><!-- End Footer -->
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"></script>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <!-- Vendor JS Files -->
-    <script src="assets/vendor/aos/aos.js"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
-    <!-- Template Main JS File -->
-    <script src="assets/js/main.js"></script>
-    <script>
-      $(function() {
-  // Owl Carousel
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script>
+    $(function () {
+      // Owl Carousel
       var owl = $(".owl-carousel");
       owl.owlCarousel({
-        items : 4, 
+        items: 4,
         margin: 10,
         loop: true,
         nav: true,
-        responsive : {
+        responsive: {
           //breakpoint from 0 and up
-          0 : {
-            items : 1,
+          0: {
+            items: 1,
           },
           // add as many breakpoints as desired , breakpoint from 480 up
-          480 : {
-            items:1,
+          480: {
+            items: 1,
           },
           // breakpoint from 768 up
-          768 : {
-              items:3,
+          768: {
+            items: 3,
           },
-          1024 :{
-              items:3,
+          1024: {
+            items: 3,
           },
-          1440 :{
-            items : 3
+          1440: {
+            items: 3
           }
-      }
+        }
       });
     });
-    </script>
-  </body>
+  </script>
+</body>
+
 </html>
