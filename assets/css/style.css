@@ -1955,6 +1955,14 @@ section {
   margin-top: 71px;
 }
 
+/* .owl-carousel .owl-nav.disabled {
+  display: flex;
+} */
+
+.portfolio-item {
+  width: 100%;
+}
+
 /* #footer .credits a {
   transition: 0.3s;
 } */
