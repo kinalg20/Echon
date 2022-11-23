@@ -58,16 +58,32 @@
     font-size: 40px !important;
   }
 
-  .specification-content{
+  .specification-content {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin: 0 30px;
   }
 
-  .specification-content li{
+  .specification-content li {
     color: #fff;
     list-style: none;
+  }
+
+  @media (max-width: 426px) {
+    .specification-content {
+      flex-direction: column;
+    }
+
+    .left-content {
+      width: 100%;
+      text-align: left;
+    }
+
+    .right-content {
+      width: 100%;
+      text-align: left;
+    }
   }
 </style>
 
@@ -92,7 +108,8 @@
       </nav>
     </div>
     <div class="tagline container p-0">
-      <marquee behavior="" direction="left">Exporters & Suppliers of Marble, Quartz, Granite and Sandstone From India</marquee>
+      <marquee behavior="" direction="left">Exporters & Suppliers of Marble, Quartz, Granite and Sandstone From India
+      </marquee>
     </div>
   </header>
 
@@ -101,7 +118,8 @@
 
   <div class="tagline-mobile">
     <div class="container">
-      <marquee behavior="" direction="left">Exporters & Suppliers of Marble, Quartz, Granite and Sandstone From India</marquee>
+      <marquee behavior="" direction="left">Exporters & Suppliers of Marble, Quartz, Granite and Sandstone From India
+      </marquee>
     </div>
   </div>
   <section id="hero" class="d-flex align-items-center" style="padding-bottom: 0;">
@@ -111,33 +129,39 @@
           <img class="d-block w-100 header-height" src="assets/img/background/Fantasy Brown Marble.png"
             alt="First slide">
           <a href="#first-slider" class="section-title1 links_banner">
-            <h3><div><img src="assets/img/Realm_Logo.png" alt=""><br>
+            <h3>
+              <div><img src="assets/img/Realm_Logo.png" alt=""><br>
                 <p
                   style=" margin: 0!important; line-height: 1; color: rgb(158, 121, 84); font-size: 60px; font-family: 'Roboto';">
                   Marble</p>
-            </div></h3>
+              </div>
+            </h3>
           </a>
         </div>
         <div class="carousel-item">
           <img class="d-block w-100 header-height" src="assets/img/background/Black Galaxy Granite vanity top (1).jpg"
             alt="Second slide">
           <a href="#second-slider" class="section-title1 links_banner">
-            <h3><div><img src="assets/img/Realm_Logo.png" alt=""><br>
+            <h3>
+              <div><img src="assets/img/Realm_Logo.png" alt=""><br>
                 <p
                   style=" margin: 0!important; line-height: 1; color: rgb(158, 121, 84); font-size: 60px; font-family: 'Roboto';">
                   Granite</p>
-            </div></h3>
+              </div>
+            </h3>
           </a>
         </div>
         <div class="carousel-item">
           <img class="d-block w-100 header-height" src="assets/img/background/Rainbow_wall_cladding.jpg"
             alt="Third slide">
           <a href="#third-slider" class="section-title1 links_banner">
-            <h3><div><img src="assets/img/Realm_Logo.png" alt=""><br>
+            <h3>
+              <div><img src="assets/img/Realm_Logo.png" alt=""><br>
                 <p
                   style=" margin: 0!important; line-height: 1; color: rgb(158, 121, 84); font-size: 60px; font-family: 'Roboto';">
                   Sandstone</p>
-            </div></h3>
+              </div>
+            </h3>
           </a>
           <!-- <a href="#third-slider" class="section-title1 links_banner" ><h3><img src="assets/img/Realm_Logo.png" alt=""> <br><p style="margin-bottom: 0!important;">Sandstone</p></b></h3></a> -->
         </div>
@@ -145,11 +169,13 @@
           <img class="d-block w-100 header-height" src="assets/img/background/Calcutta Quartz kitchen Countertop.png"
             alt="Fourth Slider">
           <a href="#fourth-slider" class="section-title1 links_banner">
-            <h3><div><img src="assets/img/Realm_Logo.png" alt=""><br>
+            <h3>
+              <div><img src="assets/img/Realm_Logo.png" alt=""><br>
                 <p
                   style=" margin: 0!important; line-height: 1; color: rgb(158, 121, 84); font-size: 60px; font-family: 'Roboto';">
                   Quartz</p>
-            </div></h3>
+              </div>
+            </h3>
           </a>
           <!-- <a href="#fourth-slider" class="section-title1 links_banner" ><h3><img src="assets/img/Realm_Logo.png" alt=""> <br><p style="margin-bottom: 0!important;">Quartz</p></b></h3></a> -->
         </div>
@@ -569,8 +595,7 @@
 
           <div class="portfolio-container" data-aos="fade-up" data-aos-delay="200">
             <div class="portfolio-item">
-              <div class="portfolio-img"><img src="assets/img/sand_stone/rainbow.jpg" class="img-fluid"
-                  alt="">
+              <div class="portfolio-img"><img src="assets/img/sand_stone/rainbow.jpg" class="img-fluid" alt="">
               </div>
               <div class="portfolio-info">
                 <h4>Rainbow</h4>
@@ -621,8 +646,7 @@
               <div class="portfolio-info">
                 <h4>Ocean Carrara</h4>
                 <p>ERQ-01</p>
-                <a href="assets/img/Quartz/Ocean Carrara.png"
-                  data-gallery="portfolioGallery" class="portfolio-lightbox
+                <a href="assets/img/Quartz/Ocean Carrara.png" data-gallery="portfolioGallery" class="portfolio-lightbox
                     preview-link"><i class="bx bx-plus"></i></a>
               </div>
             </div>
@@ -635,8 +659,7 @@
               <div class="portfolio-info">
                 <h4>Carrara Classic</h4>
                 <p>ERQ-02</p>
-                <a href="assets/img/Quartz/Carrara Classic.jpg"
-                  data-gallery="portfolioGallery" class="portfolio-lightbox
+                <a href="assets/img/Quartz/Carrara Classic.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox
                     preview-link"><i class="bx bx-plus"></i></a>
               </div>
             </div>
@@ -833,7 +856,7 @@
     </section>
     <!-- End Services Section -->
 
-    <section class="specification" style="background-color: rgb(48, 48, 48, 0.9); margin: 30px 0;">
+    <section class="specification" style="background-color: rgb(48, 48, 48, 0.9); margin: 0 0 30px 0;">
       <div class="section-title2" style="color: #fff!important;">
         <h2 style="color: #fff!important;">Specifications</h2>
         <p class="sub-title"> ( Marble, Quartz, Granite, Sandstone )</p>
@@ -844,13 +867,17 @@
             <li> <strong>Thickness - 2 CM/ 3 CM</strong></li>
             <li></li>
           </div>
-          <div class="right-content">
+          <div class="right-content" style="line-height: 30px;">
             <li><strong>Finish Option</strong></li>
-            <li> 1. Leather Finish</li>
-            <li> 2. Bush Hammered Finish.</li>
-            <li> 3. Flamed Finish.</li>
-            <li> 4. Laptora Finish</li>
-            <li> 5. Honed Finish
+            <li class="d-flex align-items-center"> <i class="bi bi-dot" style="font-size: 30px;"></i> Leather Finish
+            </li>
+            <li class="d-flex align-items-center"> <i class="bi bi-dot" style="font-size: 30px;"></i> Bush Hammered
+              Finish.</li>
+            <li class="d-flex align-items-center"> <i class="bi bi-dot" style="font-size: 30px;"></i> Flamed Finish.
+            </li>
+            <li class="d-flex align-items-center"> <i class="bi bi-dot" style="font-size: 30px;"></i> Laptora Finish
+            </li>
+            <li class="d-flex align-items-center"> <i class="bi bi-dot" style="font-size: 30px;"></i> Honed Finish
             </li>
           </div>
         </div>
@@ -915,14 +942,13 @@
       <div class="container">
         <div class="row" style="justify-content: space-between; align-items: center;">
           <div class="col-6 col-xl-10 col-lg-9 col-md-8 col-sm-6">
-            <h1 style="padding: 15px 0;"><a href="index.html"><img src="assets/img/logo/Echon_Logo_01.png"
+            <h1 style="padding: 15px 0;margin-top:0.5rem;"><a href="index.html" class="d-flex"><img src="assets/img/logo/Echon_Logo_01.png"
                   style="width: 150px;" alt=""></a></h1>
           </div>
 
           <div class="col-6 col-xl-2 col-lg-3 col-md-4 col-sm-6" style="justify-content: end;">
             <div class="container footer-bottom">
-              <div class="copyright"> All Rights
-                Reserved
+              <div class="copyright"> All Rights Reserved.
               </div>
             </div>
             <!-- <h4>Follow us on</h4>
@@ -974,6 +1000,8 @@
         margin: 10,
         loop: true,
         nav: true,
+        autoplay: true,
+        autoplayTimeout: 3000,
         responsive: {
           //breakpoint from 0 and up
           0: {
